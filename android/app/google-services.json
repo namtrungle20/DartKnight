@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407722243486",
+    "project_id": "appxemay-c3961",
+    "storage_bucket": "appxemay-c3961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407722243486:android:b9e0cdc428a4aa55a9928f",
+        "android_client_info": {
+          "package_name": "com.example.app_xemay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSUOC_SITnOSYstn-jqPICUlLGqjXsWR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
