@@ -1,0 +1,36 @@
+{
+    "category":[
+        {
+            "name":"Xe Số",
+            "subcategory":[
+                "Xe Tay Ga",
+                "Xe Côn Tay",
+                "Xe Mô Tô"
+            ]
+        },
+        {
+            "name":"Xe Tay Ga",
+            "subcategory":[
+                "Xe Côn Tay",
+                "Xe Mô Tô",
+                "Xe Số"
+            ]
+        },
+        {
+            "name":"Xe Côn Tay",
+            "subcategory":[
+                "Xe Tay Ga",
+                "Xe Mô Tô",
+                "Xe Số"
+            ]
+        },
+        {
+            "name":"Xe Mô Tô",
+            "subcategory":[
+                "Xe Số",
+                "Xe Tay Ga",
+                "Xe Côn Tay"
+            ]
+        }
+    ]
+}

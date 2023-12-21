@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           Container(
             alignment: Alignment.topCenter,
-            height: 100,
+            height: 50,
             color: lightGrey,
             child: TextFormField(
               controller: controller.SearchController,
@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                 filled: true,
                 fillColor: whiteColor,
                 hintText: searchanything,
-                hintStyle: TextStyle(color: textfieldGrey),
+                hintStyle: const TextStyle(color: textfieldGrey),
               ),
             ),
           ),
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
                   VxSwiper.builder(
                       aspectRatio: 16 / 9,
                       autoPlay: true,
-                      height: 170,
+                      height: 200,
                       enlargeCenterPage: true,
                       itemCount: slidesList.length,
                       itemBuilder: (context, index) {
@@ -169,9 +169,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                   20.heightBox,
                   VxSwiper.builder(
-                      aspectRatio: 12 / 1,
+                      aspectRatio: 16 / 9,
                       autoPlay: true,
-                      height: 150,
+                      height: 200,
                       enlargeCenterPage: true,
                       itemCount: secondSlidesList.length,
                       itemBuilder: (context, index) {
